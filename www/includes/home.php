@@ -1,3 +1,3 @@
 <!-- Home Content -->
 
-<p>Home Content in PHP</p>
+<!-- <p>Home Content in PHP</p> -->
