@@ -2,19 +2,22 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" ng-app="myProject"> <!--<![endif]-->
-<head>
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" ng-app="myProject" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head itemscope itemtype="http://schema.org/Article">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Angular/SASS/Grunt/Compass Boilerplate</title>
+	<title>Boilerplate</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta property="og:description" content=""/>
 	<meta property="og:url" content=""/>
 	<meta property="og:image" content=".jpg"/>
+	<link itemprop="image" href=".jpg">
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content=""/>
 	<meta property="og:site_name" content=""/>
+	<meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
