@@ -1,4 +1,4 @@
-# Angular/SASS/Grunt/Compass Boilerplate #
+# Grunt/SASS/Angular/Compass Boilerplate #
 
 ## Dependencies: Ruby, Sass, Compass, Node, Grunt ##
 
