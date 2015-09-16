@@ -83,7 +83,9 @@
 			document.body.appendChild(s);
 			console.log("DEV channel = " + finalDomainName);
 		}else{
-			console.log("PROD channel = " + finalDomainName);
+			// Remove console logs on non-dev environment
+			var console = {};
+			console.log = function(){};
 		}
 	</script>
 </body>
