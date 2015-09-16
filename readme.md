@@ -1,8 +1,8 @@
 ### Grunt/SASS/Angular/Compass Boilerplate ###
 
-#### Dependencies: Ruby, Sass, Compass, Node, Grunt ####
+#### Dependencies: Ruby, SASS, Compass, Node, Grunt ####
 
-##### To install Ruby, Sass & Compass #####
+##### To install Ruby, SASS & Compass #####
 $ sudo gem update --system
 $ sudo gem install sass
 $ sudo gem install compass
