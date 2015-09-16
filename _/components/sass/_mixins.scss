@@ -61,34 +61,6 @@
 /* END Retina Images */
 
 /* Media Queries */
-// Holding Page
-@mixin bp-1600 {
-	@media only screen and (max-width: 1600px) {
-		@content;
-	}
-}
-@mixin bp-1024 {
-	@media only screen and (max-width: 1024px) {
-		@content;
-	}
-}
-@mixin bp-laptop {
-	@media only screen and (max-height: 750px) {
-		@content;
-	}
-}
-@mixin bp-largePhone {
-	@media only screen and (max-width: 740px) {
-		@content;
-	}
-}
-@mixin bp-smallPhone {
-	@media only screen and (max-width: 320px) {
-		@content;
-	}
-}
-// END Holding Page
-
 @mixin bp-xxlarge {
 	@media only screen and (min-width: 1080px) {
 		@content;
