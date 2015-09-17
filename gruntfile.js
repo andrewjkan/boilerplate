@@ -3,6 +3,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-compass');
+	grunt.loadNpmTasks('grunt-contrib-jshint');
 
 	grunt.initConfig({
 		uglify: {
@@ -30,7 +31,7 @@ module.exports = function(grunt) {
 			options: { livereload: true },
 			scripts : {
 				files: ['_/components/js/*.js'],
-				tasks: ['uglify']
+				tasks: ['uglify','jshint']
 			},
 			sass : {
 				files: ['_/components/sass/*.scss'],
@@ -48,7 +49,10 @@ module.exports = function(grunt) {
 			php_include: {
 				files: ['www/includes/*.php']
 			}
-		} // END watch
+		}, // END watch
+		jshint: {
+		    all: ['_/components/js/*.js'],
+	  	}, // END jshint
 	}) // END initConfig
 
 	grunt.registerTask('default','watch');
